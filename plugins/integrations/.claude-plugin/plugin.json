@@ -1,0 +1,15 @@
+{
+  "name": "integrations",
+  "version": "1.0.0",
+  "description": "BaseAPIClient patterns for service integrations.",
+  "author": {
+    "name": "WORKWAY",
+    "email": "hello@workway.co"
+  },
+  "agents": [
+    "agents/integration-builder.md"
+  ],
+  "skills": [
+    "skills/workway-integrations.md"
+  ]
+}

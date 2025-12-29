@@ -1,0 +1,16 @@
+{
+  "name": "design-canon",
+  "version": "1.0.0",
+  "description": "Heideggerian design philosophy and canon review. Less, but better.",
+  "author": {
+    "name": "WORKWAY",
+    "email": "hello@workway.co"
+  },
+  "agents": [
+    "agents/canon-reviewer.md",
+    "agents/workflow-designer.md"
+  ],
+  "skills": [
+    "skills/heidegger-design.md"
+  ]
+}

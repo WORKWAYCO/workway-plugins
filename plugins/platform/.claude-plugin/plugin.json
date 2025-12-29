@@ -1,0 +1,13 @@
+{
+  "name": "platform",
+  "version": "1.0.0",
+  "description": "Hono, D1, and authentication patterns for WORKWAY platform.",
+  "author": {
+    "name": "WORKWAY",
+    "email": "hello@workway.co"
+  },
+  "skills": [
+    "skills/platform-api-patterns.md",
+    "skills/database-migrations.md"
+  ]
+}

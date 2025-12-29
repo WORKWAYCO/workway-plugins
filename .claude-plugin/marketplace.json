@@ -1,0 +1,48 @@
+{
+  "name": "workway",
+  "description": "WORKWAY workflow automation plugins. The tool recedes; the outcome remains.",
+  "version": "1.0.0",
+  "author": {
+    "name": "WORKWAY",
+    "email": "hello@workway.co"
+  },
+  "pluginsPath": "./plugins",
+  "plugins": [
+    {
+      "id": "harness",
+      "name": "Harness",
+      "description": "Multi-session autonomous work orchestration. Embodies Zuhandenheit.",
+      "version": "1.0.0",
+      "path": "./plugins/harness",
+      "categories": ["automation", "orchestration"],
+      "tags": ["harness", "beads", "autonomous", "multi-session"]
+    },
+    {
+      "id": "design-canon",
+      "name": "Design Canon",
+      "description": "Heideggerian design philosophy and canon review. Less, but better.",
+      "version": "1.0.0",
+      "path": "./plugins/design-canon",
+      "categories": ["design", "review"],
+      "tags": ["zuhandenheit", "rams", "heidegger", "review"]
+    },
+    {
+      "id": "integrations",
+      "name": "Integrations",
+      "description": "BaseAPIClient patterns for service integrations.",
+      "version": "1.0.0",
+      "path": "./plugins/integrations",
+      "categories": ["development", "api"],
+      "tags": ["api", "oauth", "baseapiclient", "integrations"]
+    },
+    {
+      "id": "platform",
+      "name": "Platform",
+      "description": "Hono, D1, and authentication patterns for WORKWAY platform.",
+      "version": "1.0.0",
+      "path": "./plugins/platform",
+      "categories": ["development", "database"],
+      "tags": ["hono", "d1", "cloudflare", "workers", "migrations"]
+    }
+  ]
+}

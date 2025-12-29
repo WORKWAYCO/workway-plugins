@@ -1,0 +1,15 @@
+{
+  "name": "harness",
+  "version": "1.0.0",
+  "description": "Multi-session autonomous work orchestration. Embodies Zuhandenheit.",
+  "author": {
+    "name": "WORKWAY",
+    "email": "hello@workway.co"
+  },
+  "agents": [
+    "agents/harness.md"
+  ],
+  "skills": [
+    "skills/harness-spec.md"
+  ]
+}
