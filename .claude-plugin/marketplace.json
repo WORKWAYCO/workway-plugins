@@ -1,47 +1,41 @@
 {
   "name": "workway",
-  "description": "WORKWAY workflow automation plugins. The tool recedes; the outcome remains.",
-  "version": "1.0.0",
-  "author": {
+  "owner": {
     "name": "WORKWAY",
     "email": "hello@workway.co"
   },
-  "pluginsPath": "./plugins",
+  "metadata": {
+    "description": "WORKWAY workflow automation plugins. The tool recedes; the outcome remains.",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
   "plugins": [
     {
-      "id": "harness",
-      "name": "Harness",
+      "name": "harness",
+      "source": "./harness",
       "description": "Multi-session autonomous work orchestration. Embodies Zuhandenheit.",
-      "version": "1.0.0",
-      "path": "./plugins/harness",
-      "categories": ["automation", "orchestration"],
+      "category": "automation",
       "tags": ["harness", "beads", "autonomous", "multi-session"]
     },
     {
-      "id": "design-canon",
-      "name": "Design Canon",
+      "name": "design-canon",
+      "source": "./design-canon",
       "description": "Heideggerian design philosophy and canon review. Less, but better.",
-      "version": "1.0.0",
-      "path": "./plugins/design-canon",
-      "categories": ["design", "review"],
+      "category": "design",
       "tags": ["zuhandenheit", "rams", "heidegger", "review"]
     },
     {
-      "id": "integrations",
-      "name": "Integrations",
+      "name": "integrations",
+      "source": "./integrations",
       "description": "BaseAPIClient patterns for service integrations.",
-      "version": "1.0.0",
-      "path": "./plugins/integrations",
-      "categories": ["development", "api"],
+      "category": "development",
       "tags": ["api", "oauth", "baseapiclient", "integrations"]
     },
     {
-      "id": "platform",
-      "name": "Platform",
+      "name": "platform",
+      "source": "./platform",
       "description": "Hono, D1, and authentication patterns for WORKWAY platform.",
-      "version": "1.0.0",
-      "path": "./plugins/platform",
-      "categories": ["development", "database"],
+      "category": "development",
       "tags": ["hono", "d1", "cloudflare", "workers", "migrations"]
     }
   ]
